@@ -1,0 +1,119 @@
+//HOME WORK
+
+// 1) Print “Hello I am enjoying coding”
+public class day1{
+    public static void main(String[] args) {
+       System.out.println("Hello I am enjoying coding");
+    }
+}
+
+// 2) Print the below pattern:
+/*Hello
+  I
+  am
+  enjoying
+  coding*/
+
+public class day1{
+    public static void main(String[] args) {
+        System.out.println("Hello");
+        System.out.println("I");
+        System.out.println("am");
+        System.out.println("enjoying");
+        System.out.println("coding");
+    }
+}
+
+// 3) Find the sum, product of 100,8,3
+
+public class day1{
+    public static void main(String[] args) {
+        int a=100;
+        int b=8;
+        int c=3;
+        int sum = a+b+c;
+        int product = a*b*c;
+        System.out.println("Sum is "+ sum);
+        System.out.println("Product Is "+ product);
+    }
+}
+
+// 4) Find the difference between 100 and 40.
+
+public class day1{
+    public static void main(String[] args) {
+       int a = 100;
+       int b = 40;
+       int difference = a-b;
+       System.out.println("Difference Is "+ difference);
+    }
+}
+
+// 5) Print the below pattern
+*****
+*****
+*****
+*****
+*****
+*****
+
+public class day1 {
+    public static void main(String[] args) {
+        int row=6;
+        int column=5;
+        for(int i=1; i<=row; i++){
+            for(int j=1; j<=column; j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+
+// 6) Print the below pattern
+* *
+* *
+* *
+* *
+* *
+****
+
+public class day1 {
+    public static void main(String[] args) {
+        int row=5;
+        int column=2;
+        for(int i=1; i<=row; i++){
+            for(int j=1; j<=column; j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+        System.out.println("****");
+    }
+
+
+
+// 7) Find the last digit of the number 987653.
+
+public class day1 {
+    public static void main(String[] args) {
+        int a=987653;
+        int l=a%10;
+        System.out.println("Last Digit Is "+l);
+    }
+}
+
+// 8) Store values 15, 4 in m and n variable of int data type then
+// Print value of m+n in the first line,
+// Print value of m-n in the second line,
+// Print value of m*n in the second line.
+
+public class day1 {
+    public static void main(String[] args) {
+        int m=15;
+        int n=4;
+        System.out.println(m+n);
+        System.out.println(m-n);
+        System.out.println(m*n);
+    }
+}
