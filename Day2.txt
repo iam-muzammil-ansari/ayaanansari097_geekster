@@ -1,0 +1,302 @@
+//HOME WORK day2;
+
+// 1) Take the diameter of a circle as input. Print the area of the circle as integer input.
+
+import java.util.Scanner;
+
+public class day2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int d =sc.nextInt();
+        int r = d/2;
+        double pi= 3.14;
+        double area =  pi*r*r;
+        System.out.println(area);
+    }
+}
+
+// 2) Take the base and height of a triangle as input and store them in double variables x and y and print its area.
+
+import java.util.Scanner;
+
+public class day2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double x = sc.nextDouble();
+        double y = sc.nextDouble();
+        double area = (x*y)/2;
+        System.out.println(area);
+    }
+}
+
+//3) Take an input x, check if it is greater than 1000 or not. Print true or false.
+
+import java.util.Scanner;
+
+public class day2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int x =sc.nextInt();
+        if(x>1000){
+            System.out.println("true");
+        }else{
+            System.out.println("false");
+        }
+    }
+}
+
+// 4) For 3rd and 4th Question. Attempt the Quiz
+// https://forms.gle/bJCRD9hTR3PzZ4uN6
+a. int x = 12+5+8
+b. int x= 13/5 + 18/8
+
+//for a.
+public class day2 {
+    public static void main(String[] args) {
+        int x =12+5+8;
+        System.out.println(x);
+    }
+} //ANS IS 25
+
+// for b.
+public class day2 {
+    public static void main(String[] args) {
+        int x =13/5+18/8;
+        System.out.println(x);
+    }
+} // ANS IS 4
+
+// 5) Find the answer of the following expressions
+a. Int x = 7+3+4
+b. Int x = 12 + 5 + 8
+c. Int x= 13/5 + 18/8
+d. double x= 12 + 5.0 + 2.76
+e. double x= 12/3 + 13/2
+f. double x=12/3 + 13.0/2
+g. double x=14/2 + 15.0/4
+h. double x= 13/2 % 5/3
+i. double x= 17.0/2 % 16.0/4
+
+//a.
+public class day2 {
+    public static void main(String[] args) {
+        int x =7+3+4;
+        System.out.println(x);
+    }
+} // ANS IS 14
+
+//b.
+public class day2 {
+    public static void main(String[] args) {
+        int x =12 + 5 + 8;
+        System.out.println(x);
+    }
+} // ANS IS 25
+
+//c.
+public class day2 {
+    public static void main(String[] args) {
+        int x =13/5 + 18/8;
+        System.out.println(x);
+    }
+} // ANS IS 4
+
+//d.
+public class day2 {
+    public static void main(String[] args) {
+        double x= 12 + 5.0 + 2.76;
+        System.out.println(x);
+    }
+} // ANS IS 19.759999999999998
+
+//e.
+public class day2 {
+    public static void main(String[] args) {
+        double x= 12/3 + 13/2;
+        System.out.println(x);
+    }
+} // ANS IS 10.0
+
+//f.
+public class day2 {
+    public static void main(String[] args) {
+        double x=12/3 + 13.0/2;
+        System.out.println(x);
+    }
+} // ANS IS 10.5
+
+//g.
+public class day2 {
+    public static void main(String[] args) {
+        double x=14/2 + 15.0/4;
+        System.out.println(x);
+    }
+} //ANS IS 10.75
+
+//h.
+public class day2 {
+    public static void main(String[] args) {
+        double x= 13/2 % 5/3;
+        System.out.println(x);
+    }
+} // ANS IS 0.0
+
+//i.
+public class day2 {
+    public static void main(String[] args) {
+        double x= 17.0/2 % 16.0/4;
+        System.out.println(x);
+    }
+}  // ANS IS 2.125
+
+
+
+//6) Store these expressions inside a Boolean variable ans. Print their outputs true or false accordingly
+a. boolean ans = 3 > 2
+b. boolean ans = 3 ≥ 3
+c. boolean ans = 4 + 3 > 9
+d. boolean ans = 10 + 8 > 10
+e. boolean ans = 12 != 10
+f. boolean ans = 13 == 13
+g. boolean ans = 14 != 14
+h. boolean ans = 20 == 5*4
+i. boolean ans = 30 != 3+4-10
+j. boolean ans = 20 == 41/2
+
+//a.
+public class day2 {
+    public static void main(String[] args) {
+        boolean ans = 3 > 2;
+        System.out.println(ans);
+    }
+} // TRUE
+
+//b.
+public class quiz2 {
+    public static void main(String[] args) {
+        boolean ans = 3 >= 3;
+        System.out.println(ans);
+    }
+} // TURE
+
+//c.
+public class quiz2 {
+    public static void main(String[] args) {
+        boolean ans = 4 + 3 > 9;
+        System.out.println(ans);
+    }
+} //FALSE
+
+//d.
+public class quiz2 {
+    public static void main(String[] args) {
+        boolean ans = 10 + 8 > 10;
+        System.out.println(ans);
+    }
+} // TRUE
+
+//e.
+public class quiz2 {
+    public static void main(String[] args) {
+        boolean ans = 12 != 10;
+        System.out.println(ans);
+    }
+} //TRUE
+
+//f.
+public class quiz2 {
+    public static void main(String[] args) {
+        boolean ans = 13 == 13;
+        System.out.println(ans);
+    }
+} // TRUE
+
+//g.
+public class quiz2 {
+    public static void main(String[] args) {
+        boolean ans = 14 != 14;
+        System.out.println(ans);
+    }
+} //false
+
+//h.
+public class quiz2 {
+    public static void main(String[] args) {
+        boolean ans = 20 == 5*4;
+        System.out.println(ans);
+    }
+} // TRUE
+
+//i.
+public class quiz2 {
+    public static void main(String[] args) {
+        boolean ans = 30 != 3+4-10;
+        System.out.println(ans);
+    }
+} // TRUE
+
+//j
+public class quiz2 {
+    public static void main(String[] args) {
+        boolean ans = 20 == 41/2;
+        System.out.println(ans);
+    }
+} //  TRUE
+
+
+// 7) Take marks of a student in five subjects as input in a double variable. Print the sum of total marks and also find the percentage of the student.
+
+import java.util.Scanner;
+
+public class quiz2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double physics = sc.nextDouble();
+        double chemistry = sc.nextDouble();
+        double maths = sc.nextDouble();
+        double hindi = sc.nextDouble();
+        double english = sc.nextDouble();
+        double sum = physics+chemistry+maths+hindi+english;
+        double percentage = (sum/500)*100;
+        System.out.println("marks "+ sum);
+        System.out.println("Percentage "+percentage);
+    }
+}
+
+// 8) Take four integer inputs and check if the product of them is greater than 1000 or not. Print true or false accordingly.
+import java.util.Scanner;
+
+public class quiz2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        int d = sc.nextInt();
+        int product = a*b*c*d;
+        if(product>1000){
+            System.out.println("true");
+        }else{
+            System.out.println("false");
+        }
+    }
+}
+
+// 9) Take an integer input and check if the number is divisible by 7 or not.
+import java.util.Scanner;
+
+public class quiz2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a=sc.nextInt();
+        if(a%7==0){
+            System.out.println("the number is divisible by 7 ");
+        }else{
+            System.out.println("the number is not divisible by 7");
+        }
+    }
+}
+
+//10) Attempt the Quiz
+https://forms.gle/bJCRD9hTR3PzZ4uN6
+
