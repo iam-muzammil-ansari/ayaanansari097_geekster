@@ -1,0 +1,136 @@
+//HOME WORK DAY3
+
+//1. boolean ans = 40>=2*45 || 30>=2*10
+public class day3 {
+
+    public static void main(String[] args) {
+        boolean ans = 40>=2*45 || 30>=2*10;
+            System.out.println(ans);
+        }
+    } // ANS IS TRUE
+
+//2. boolean ans= 40>3 && 20>3
+public class day3 {
+
+    public static void main(String[] args) {
+        boolean ans= 40>3 && 20>3;
+            System.out.println(ans);
+        }
+    } // ANS IS TRUE
+
+//3. boolean ans= 50>7 && 30>=40
+public class quiz2 {
+
+    public static void main(String[] args) {
+        boolean ans= 50>7 && 30>=40;
+            System.out.println(ans);
+        }
+    } // ANS IS FALSE
+
+//4. boolean ans= 50<25 || 30>2
+public class quiz2 {
+
+    public static void main(String[] args) {
+        boolean ans= 50<25 || 30>2;
+            System.out.println(ans);
+        }
+    } // ANS IS TRUE
+
+//5. boolean ans= 70<=75 || 40<=2
+public class quiz2 {
+
+    public static void main(String[] args) {
+        boolean ans= 70<=75 || 40<=2;
+            System.out.println(ans);
+        }
+    } // ANS IS TRUE
+
+//6. boolean ans = !( 45==35)
+public class quiz2 {
+
+    public static void main(String[] args) {
+        boolean ans = !( 45==35);
+            System.out.println(ans);
+        }
+    } // ANS IS TRUE
+
+//7. boolean ans= (20<32 && 2!=30) && (35>=20 || 35!=25)
+public class quiz2 {
+
+    public static void main(String[] args) {
+        boolean ans= (20<32 && 2!=30) && (35>=20 || 35!=25);
+            System.out.println(ans);
+        }
+    } // ANS IS TRUE
+
+//8. boolean ans= !(20>=30)
+public class quiz2 {
+
+    public static void main(String[] args) {
+        boolean ans= !(20>=30);
+            System.out.println(ans);
+        }
+    } // ANS IS TRUE
+
+//9. boolean ans= !(30>40)
+public class quiz2 {
+
+    public static void main(String[] args) {
+        boolean ans= !(30>40);
+            System.out.println(ans);
+        }
+    } // ANS IS TRUE
+
+//10. boolean ans = !(40==2*20) && 75==15*5
+public class quiz2 {
+
+    public static void main(String[] args) {
+        boolean ans = !(40==2*20) && 75==15*5;
+            System.out.println(ans);
+        }
+    } // ANS IS FALSE
+
+//11. boolean ans = !(40>=40) || (50>=2*25)
+public class quiz2 {
+
+    public static void main(String[] args) {
+        boolean ans = !(40>=40) || (50>=2*25);
+            System.out.println(ans);
+        }
+    } // ANS IS TRUE
+
+//12. boolean ans = !(10*5==50) || (2*3==7 || 9==28/3)
+public class quiz2 {
+
+    public static void main(String[] args) {
+        boolean ans = !(10*5==50) || (2*3==7 || 9==28/3);
+            System.out.println(ans);
+        }
+    } // ANS IS TRUE
+
+//13. boolean ans = (20*5==100 || 10!=10) && (30*2==60 || 50<40)
+public class quiz2 {
+
+    public static void main(String[] args) {
+        boolean ans = (20*5==100 || 10!=10) && (30*2==60 || 50<40);
+            System.out.println(ans);
+        }
+    } // ANS IS TRUE
+
+//14. boolean ans = ( !(90>=40) && !(80>36) )
+public class quiz2 {
+
+    public static void main(String[] args) {
+        boolean ans = ( !(90>=40) && !(80>36) );
+            System.out.println(ans);
+        }
+    } // ANS IS FALSE
+
+//15. boolean ans = ( (50>=20) || 90>2*45) && ( 30!=2*15)
+public class quiz2 {
+
+    public static void main(String[] args) {
+        boolean ans = ( (50>=20) || 90>2*45) && ( 30!=2*15);
+            System.out.println(ans);
+        }
+    } // ANS IS FALSE
